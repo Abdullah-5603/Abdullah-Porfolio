@@ -8,10 +8,10 @@ Aos.init({
 
 const About = () => {
     return (
-        <div id='about' className=' bg-slate-800'>
+        <div id='about' className=''>
            <div className='flex flex-col justify-center px-10'>
            <p className='md:text-4xl text-xl font-bold mb-3 mt-10 md:mt-16 text-center uppercase'>About Me</p>
-            <div className="divider md:w-1/3 mx-auto my-3"><img className='w-16 hidden md:block' src={logo}alt="" /></div>
+            <div className="divider md:w-1/3 mx-auto my-3"><img className='w-16' src={logo}alt="" /></div>
             <div data-aos='fade-down-right' className='flex flex-col'>
             <p className='font-bold uppercase md:text-5xl md:mt-5 md:mb-8'>Introducing My self</p>
             <p className='md:font-semibold w-11/12 md:text-xl'>I'm a Junior Web Developer building different types of core javaScript projects, React js web applications and full stack web applications. Check out some of my work in the Projects section. <br />

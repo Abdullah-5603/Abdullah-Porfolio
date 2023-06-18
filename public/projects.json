@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name": "MindFulness",
+        "image": "/src/assets/Project Image/MindFulness.png",
+        "details": "baal"
+    },
+    {
+        "id":2,
+        "name": "Animagic Action Figure",
+        "image": "/src/assets/Project Image/Animagic-Action-Figure.png",
+        "details": "baal"
+    },
+    {
+        "id":3,
+        "name": "Pamana Kitchen",
+        "image": "/src/assets/Project Image/Pamana-Kitchen.png",
+        "details": "baal"
+    }
+]
