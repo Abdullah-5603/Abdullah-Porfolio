@@ -4,6 +4,10 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Main from './Layout/Main'
 import Home from './Home/Home'
+import Aos from 'aos'
+Aos.init({
+  delay: 500
+})
 
 const router = createBrowserRouter([
   {
