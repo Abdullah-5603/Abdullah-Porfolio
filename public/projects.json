@@ -2,19 +2,74 @@
     {
         "id":1,
         "name": "MindFulness",
-        "image": "/src/assets/Project Image/MindFulness.png",
-        "details": "baal"
+        "images": [
+            "/src/assets/Project Image/MindFulness/MindFulness (1).png",
+            "/src/assets/Project Image/MindFulness/MindFulness (2).png",
+            "/src/assets/Project Image/MindFulness/MindFulness (3).png",
+            "/src/assets/Project Image/MindFulness/MindFulness (4).png",
+            "/src/assets/Project Image/MindFulness/MindFulness (5).png",
+            "/src/assets/Project Image/MindFulness/MindFulness (6).png",
+            "/src/assets/Project Image/MindFulness/MindFulness (7).png",
+            "/src/assets/Project Image/MindFulness/MindFulness (8).png",
+            "/src/assets/Project Image/MindFulness/MindFulness (9).png",
+            "/src/assets/Project Image/MindFulness/MindFulness (10).png"
+        ],
+        "details": "Developed a Teaching website using Tailwind CSS for responsive and modern UI design. Implemented the server-side API logic using Express.js, and Node.js and integrated MongoDB as the database for storing classes and user’s data. Used Firebase as an authentication system for registration and login.",
+        "Features" : [
+            "By default every user will be a student when they registered for the first time. A student can select a class and see all selected classes that he/she added to his/her dashboard",
+            "Only an Admin can see all users and can change the user role from student to instructor or admin. Only he can approve or denies the classes by adding an instructor. An admin can send feedback on why he/she approved or denied a class.",
+            "Only an Instructor can add classes from his/her dashboard. By default, a class status will be pending. The status will change if an Admin approves or denies the class"
+        ],
+        "links" : [
+            {"live_site": "https://mindfulness-59929.web.app/"},
+            {"github_client" : "https://github.com/Abdullah-5603/MindFulness-client"},
+            {"github_server" : "https://github.com/Abdullah-5603/MindFulness-server"}
+        ]
     },
     {
         "id":2,
         "name": "Animagic Action Figure",
-        "image": "/src/assets/Project Image/Animagic-Action-Figure.png",
-        "details": "baal"
+        "images": [
+            "/src/assets/Project Image/animagic-action-figure/animagic-action-figure (1).png",
+            "/src/assets/Project Image/animagic-action-figure/animagic-action-figure (2).png",
+            "/src/assets/Project Image/animagic-action-figure/animagic-action-figure (3).png",
+            "/src/assets/Project Image/animagic-action-figure/animagic-action-figure (4).png",
+            "/src/assets/Project Image/animagic-action-figure/animagic-action-figure (5).png",
+            "/src/assets/Project Image/animagic-action-figure/animagic-action-figure (6).png",
+            "/src/assets/Project Image/animagic-action-figure/animagic-action-figure (7).png"
+        ],
+        "details": "The Toys Shop is a web application that I developed using MongoDB, Express.js, React.js, and Node.js (MERN stack). This project focused on implementing CRUD (Create, Read, Update, and Delete) operations for managing toy products within an online store.",
+        "Features" : [
+            "Designed and developed the backend using MongoDB and Express.js to handle the API requests and responses.",
+            "Frontend has used React.js for creating an intuitive and responsive user interface for seamless browsing and interaction.",
+            "Developed the CRUD functionality, allowing users to add new toys, view detailed product information, update existing toy details, and remove products from the inventory."
+        ],
+        "links" : [
+            {"live_site": "https://animagic-action-figure-37901.web.app/"},
+            {"github_client" : "https://github.com/Abdullah-5603/Animagic-Action-Figure-client"},
+            {"github_server" : "https://github.com/Abdullah-5603/Animagic-Action-Figure-server"}
+        ]
     },
     {
         "id":3,
         "name": "Pamana Kitchen",
-        "image": "/src/assets/Project Image/Pamana-Kitchen.png",
-        "details": "baal"
+        "images": [
+            "/src/assets/Project Image/pamana-kitchen/pamana-kitchen (1).png",
+            "/src/assets/Project Image/pamana-kitchen/pamana-kitchen (2).png",
+            "/src/assets/Project Image/pamana-kitchen/pamana-kitchen (3).png",
+            "/src/assets/Project Image/pamana-kitchen/pamana-kitchen (4).png",
+            "/src/assets/Project Image/pamana-kitchen/pamana-kitchen (5).png"
+        ],
+        "details": "Developed a chef information-based website using Tailwind CSS for responsive and modern UI design. Implemented the server-side logic using Express.js and Node.js, and integrated MongoDB as the database for storing recipe data. Firebase Authentication to provide secure user registration and login functionality.",
+        "Features" : [
+            "Developed front-end user experience using Rect.JS, Context API, and REST APIs",
+            "Implemented the React Router DOM to allow Nested Route",
+            "Integrated with Firebase Authentication for User Login/Register"
+        ],
+        "links" : [
+            {"live_site": "https://pamana-kitchen-react.web.app/"},
+            {"github_client" : "https://github.com/Abdullah-5603/Pamana-Kitchen-react"},
+            {"github_server" : "https://github.com/Abdullah-5603/Pamana-Kitchen-data-server"}
+        ]
     }
 ]

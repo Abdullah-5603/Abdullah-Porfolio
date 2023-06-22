@@ -8,7 +8,7 @@ export default {
     extend: {},
   },
   daisyui: {
-    themes : ['business']
+    themes : ['dracula']
   },
   plugins: [require('daisyui')],
 }
