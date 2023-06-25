@@ -7,10 +7,23 @@ const Footer = () => {
     const handleWhatsApp = () => {
         const phoneNumber = '+8801708357623';
         const message = 'Hello, I would like to connect with you.';
-        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+        
+        // Check if the user is on a mobile device
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        
+        let url;
+        
+        if (isMobile) {
+          // Open WhatsApp in the Android app
+          url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        } else {
+          // Open WhatsApp in the desktop app
+          url = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+        }
+        
         window.open(url, '_blank');
-    };
-
+      };
+      
     return (
         <footer className="footer items-center p-5 bg-neutral text-neutral-content">
             <div className="items-center grid-flow-col">
